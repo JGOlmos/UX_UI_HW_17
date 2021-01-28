@@ -56,7 +56,7 @@ li:hover{
 }
 
 .headliner {
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color: rgba(255, 255, 255, 0.788);
     border-left: 5px solid purple;
     position: absolute;
     align-items: center;
@@ -70,29 +70,29 @@ li:hover{
   }
   
 
-.heroImg2{
-   width: 100%;
+.aboutme{
+    width: 100%;
     padding: 0px;
     width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
 }
+
 .profilepic{
    width: 300px;
-   float: left;
    margin:20px;
 }
 
 .profilepicture{
-    height: 400px;
+    height: 15em;
     margin: 0 auto;
-    float: left;
 }
 .content{
-    height: 400px;
+    height: 50vh;
     margin: 0 auto;
     text-align: center;
-    padding: 60px;
-    /* padding-right: 60px; */
-   }
+    /* padding: 60px; */
+}
    
 .wdtrav_notes{
     background-color: #ac8887;
@@ -183,3 +183,4 @@ button{
 button:hover{
     background-color: #FFEFD3;
 }
+
